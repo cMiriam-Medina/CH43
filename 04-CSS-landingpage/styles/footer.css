@@ -1,0 +1,32 @@
+@import url(./style.css);
+
+footer {
+    background-color: #4d5d73;
+    padding: 100px 20px 10px 20px;
+}
+
+.footer--sections {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    color: #ff3acf;
+}
+
+.section a {
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 5px;
+    color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}

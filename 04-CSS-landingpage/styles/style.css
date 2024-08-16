@@ -1,0 +1,68 @@
+body{
+    background-color: #090F26;
+    margin: 0;
+    color: #ffffff;
+}
+
+.navbar--container {
+    color: #ffffff;
+    background: linear-gradient(225deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%);
+    padding: 20px 10px;
+    position: sticky;  /*Para que funcione tengo que indicar la posicion de inicio*/
+    top: 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    /* width: 100vh; esta opcion para modificar tamano mantiene proporciones originales a las de la pagina completamente expandida, por eso no necesitamos eso aqui. Despues lo haremos nice con flex para que se ajuste el tamano a la apertura de la ventana. */
+}
+
+.navbar--logo img {
+    width: 86px;
+}
+
+.navbar--menu a{  /*Es importante indicar el elemento que quiero modificar (a de anclaje, img de imagen, etc). Sino solo afecta al div*/
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navbar--menu a:hover{  /*Esta es una pseudoclase. hover permite agregar propiedades a nuestros elementos. Aqui indicamos que al pasar nuestro cursor sobre los anchors, estos cambien de color*/
+    color: #b4dded;
+    transition: 0.3s;
+}
+
+.navbar--menu {
+    display: flex;
+    gap: 35px; /*con gap puedo personalizarlo fuera del contenedor en el que esta a diferencia de justify-content: space-around*/
+    font-family: "Nerko One", cursive;
+    font-size: large;
+}
+
+.navbar--search {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar--search input {
+    font-family: "Gilda Display", serif;
+    font-size: smaller;
+    padding: 1px 5px;
+    width: 180px;
+}
+
+.navbar--search button {
+    border-color: #8A2BE2 solid 2px;
+    background-color: #f5f5f5;
+    border-radius: 6px;
+    padding: 5px 18px;
+    cursor: pointer;
+}
+
+.navbar--search button:hover {
+    border-color: #f5f5f5 solid 2px;
+    background-color: #994fdf;
+    border-radius: 6px;
+    padding: 5px 18px;
+    cursor: pointer;
+    transition: 1s;
+}
