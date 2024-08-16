@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>01-HTML</title>
+</head>
+<body>
+    <!--Esto es un comentario-->
+    <!--Etiqueta de Encabezado-->
+    <h1>01 - Introduccion a HTML</h1>
+    <h2>Generation Mexico</h2>
+    <!--
+    <h3>Cohorte 43</h3>
+    <h4>Instructores y mentores</h4>
+    <h5>Participantes</h5>
+    <h6>Julio 2024</h6>
+    -->
+    <!--Etiqueta de parrafo-->
+    <p>
+        Hola me llamo Miiriam, soy estudiante en el programa 
+        de Generation MX.
+    </p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ad voluptate saepe necessitatibus cum culpa minus quam, obcaecati dolorem, ipsa nemo. Fugiat nulla id odit accusantium perspiciatis! Incidunt, amet numquam.</p>
+
+    <!--Elemento para linea de separacion-->
+    <hr>
+    <!--Elemento para realizar un salto de linea-->
+    <br>
+
+    <!--Etiquetas para formato de texto-->
+    <p><strong>Lorem ipsum</strong> dolor sit amet consectetur, adipisicing elit. Officia ut dignissimos illo nisi provident sint officiis repellendus adipisci dolorum. Nobis molestiae, <b>fugiat totam rerum voluptas odit tempore provident nesciunt quaerat?</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi voluptatem nulla perferendis. <i><b>Repellat,</b></i> voluptatum harum quasi inventore voluptas doloremque ipsa tempora obcaecati est asperiores praesentium ipsum magnam nisi libero! Veritatis!</p>
+
+    <!--Etiqueta de imagen, esta etiqueta solo es de apertura y debe ir acompanado de atributos que nos permitan establecer propiedades-->
+    <!--mala practica poner archivos de rutas absolutas(servidores externos) porque si el servidor externo lo borra yo ya no tengo acceso-->
+    <h2>Etiqueta de imagen</h2>
+    <img src="https://pbs.twimg.com/profile_images/917481867976331264/uy_YTm-i_400x400.jpg" alt="logo rosa de genmx" width="200px">
+    <br>
+    <!--buena practica crear rutas relativas descargando la img y guardandola en el directorio assets-->
+    <img src="./assets//GenMxLogoazul.png" alt="logo azul de genmx" width="200 px" height="220px">
+    <hr>
+    <!--Etiqueta anchor (de anclaje) <a></a>. Nos permite crear hipervinculos desde cualquier elemento HTML. Necesito atributos para hacerla funcionar. target para ver donde abre mi hipervinculo.-->
+    <h2>Etiqueta de anclaje</h2>
+    <a href="https://www.google.com/webhp?hl=en&sa=X&ved=0ahUKEwjUyofq7oaHAxULH0QIHWidBN0QPAgJ" target="_blank">Este es un enlace</a>
+
+    <!--Le doy propiedad de hipervinculo a una imagen. Yo puedo envolver en hipervinculo cualquier elemento que yo quiera.-->
+    <a href="https://mexico.generation.org/" target="_blank">
+        <img src="./assets//GenMxLogoazul.png" width="80px" alt="logo azul hipervinculo">
+    </a>
+    <a href="https://code.visualstudio.com/docs" target="_blank">
+        <p>Nuevo hipervinculo</p>
+    </a>
+    <hr>
+    
+    <!--Etiquetas de lista. Podemos tener 2 tipos de lista, ordenada y desordenada. Cada tipo de lista necesita items que viven dentro de ellas.
+    <ul></ul> lista desordenada (muestra vinetas sin jerarquia)
+    <ol></ol> lista ordenada (muestra vinetas con jerarquia)
+    <li></li> item de lista
+    -->
+    <h2>Etiqueta de lista <!--En unicode podemos agregar como texto 'etiquetas' pero sin que cumplan su funcion de comando--> &lt;p&gt;&lt;/p&gt;</h2>
+    <ul>
+        <li>Tomates</li>
+        <li>Cebolla</li>
+        <li>Limones</li>
+    </ul>
+    <ol>
+        <li>Gringa de pastor</li>
+        <li>Mole con pollo</li>
+        <li>Hamburguesa</li>
+    </ol>
+    <ol type="a">
+        <li>Seccion A</li>
+        <li>Seccion B</li>
+        <li>Seccion C</li>
+    </ol>
+
+    <p>Menu de taqueria</p>
+    <ol type="I">
+        <li>Tacos</li>
+            <ul>
+                <li><a href="./assets//taco_de_pastor.jpeg" target="_blank">Pastor</a></li>
+                <li>
+                    <a href="./assets//taco_de_sirloin.jpeg" target="_blank">Sirloin</a>
+                </li>
+                <li>
+                    <a href="./assets//taco_de_Asada.jpeg" target="_blank">Asada</a>
+                </li>
+            </ul>
+        <li>Gringas</li>
+            <ol>
+                <li>Pastor</li>
+                <li>Combinada</li>
+                <li>Longaniza</li>
+            </ol>
+        <li>Tortas</li>
+            <ul>
+                <li>Pastor con queso</li>
+            </ul>
+        <li>Especialidades</li>
+        <li>Bebidas</li>
+    </ol>
+
+    <hr>
+    <!--Etiquetas div y span
+    -div. Etiqueta divisora que permite contener otros elementos sin afectarlos directamente. Podemos anidar todos los divs que queramos sin problemas
+    -span. Etiqueta divisora en linea que permite rodear texto dentro de una etiqueta
+    -->
+    <h2>Etiquetas div y span</h2>
+    <div>
+        <p>Primer parrafo</p>
+        <div>
+            <p>Parrafo anidado en el <span>div 1</span></p>
+            <p>Parrafo anidado en el div 2</p>
+        </div>
+    </div>
+    <div>
+    <p>Segundo parrafo</p>
+    </div>
+
+
+
+    <br><br><br><br>
+    <br><br><br><br>
+</body>
+</html>

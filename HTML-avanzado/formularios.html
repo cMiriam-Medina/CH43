@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <form><!--Esta etiqueta nos ayuda a crear un formulario-->
+        <!--Atributos: 
+        required(para que sea obligatorio que el usuario complete ese campo)
+        name(nos ayuda a identificar a que se refiere mi input)
+        placeholder(texto dentro del cuadro que ponemos para escribir instrucciones)
+        value(darle un valor o nombre a nuestro boton)
+        label ayuda a asignar un apartado de texto y que el usuario sepa a que se refiere
+        -->
+        <label>Nombre:</label>
+        <input type="text" name="username" required><!--Pide al usuario un texto en especifico 'cadena de texto(string)'-->
+        <input type="submit"><!--Pone boton de enviar-->
+        <label>Fecha de nacimiento:</label>
+        <input type="date"><br><br>
+        <input type="email" placeholder="Escribe tu correo">
+        <input type="submit">
+        <input type="password" placeholder="password" required>
+        <input type="checkbox" required><br><br>
+        <label>Selecciona un color:</label>
+        <input type="color"><br><br>
+        <label>Buscar:</label>
+        <input type="search" placeholder="Busqueda"><br><br>
+        <label>Selecciona un numero:</label>
+        <input type="number">
+        <input type="radio"><br><br>
+        <label>Sube tu archivo</label>
+        <input type="file">
+        <input type="button" value="Subir">
+    </form>
+
+
+</body>
+</html>

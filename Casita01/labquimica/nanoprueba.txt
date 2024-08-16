@@ -1,0 +1,6 @@
+//modificando con nano
+let variable;
+variable = "hola";
+
+//etc...
+

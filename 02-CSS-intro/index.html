@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS - Introduccion</title>
+
+    <!--Estilos externos desde una hoja de CSS-->
+    <link rel="stylesheet" href="./styles//style.css"  >
+
+    <!--Estilos mediante la etiqueta style-->
+    <style>
+        h2{
+            color:chocolate;
+        }
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Estilo en CSS. Podemos agregar estilos de 3 maneras:
+    1. Estilos en linea, dentro del elemento con el atributo style
+    2. Mediante etiqueta style, dentro de la etiqueta <head> agrego la etiqueta <style></style>
+    3. Hoja externa CSS, linkeando <link> a hoja externa
+    -->
+    
+    <!--Agregando estilo en linea al <h1>-->
+    <h1 style="color:blueviolet;">Introduccion a CSS</h1>
+    <h1>Introduccion a CSS</h1>
+    <h2>Generation Mx CH43</h2>
+
+    <!--Lista ordenada me servira como menu de opciones-->
+    <ul>
+        <li><a href="https://mexico.generation.org" target="_blank">Sitio oficial de GenMx</a></li>
+        <li><a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">Sitio de w3schools - CSS</a></li>
+        <li><a href="">Ir a la ultima seccion</a></li>
+    </ul>
+    <!--
+    <a href="https://mexico.generation.org" target="_blank">Sitio oficial de GenMx</a>
+    <a href="https://www.w3schools.com/css/css_intro.asp" target="_blank">Sitio de w3schools - CSS</a>
+    <a href="">Ir a la ultima seccion</a>
+    -->
+    <!--Seccion 1-->
+    <!--Agregar la clase sirve para diferenciar en los estilos css-->
+    <div class="sections"> 
+        <h3>Seccion 1</h3>
+        <p>Parrafo 1</p>
+    </div>
+    <!--Seccion 2-->
+    <div class="sections" id="section--2">
+        <h3>Seccion 2</h3>
+        <p class="parrafo--2">Parrafo 2</p>
+        <p>Subparrafo</p>
+    </div>
+    <!--Seccion 3-->
+    <div class="sections">
+        <h3>Seccion 3</h3>
+        <p>Parrafo 3</p>
+    </div>
+    <!--Seccion 4-->
+    <div class="main">
+        <h3>Seccion 4</h3>
+        <p>Parrafo 4</p>
+    </div>
+
+    <!--Manipulando las propiedades del fondo-->
+    <!--Seccion 5-->
+    <div class='main' id="section--5">
+        <h3>Seccion 5</h3>
+        <p>Parrafo 5</p>
+    </div>
+    
+    <div class="main--section6" id="section6">
+        <div class="gatuna">
+            <img src="./assets/gatito.png" alt="imagen de gatito" id="imagen--gatito">
+        </div>
+        <div class="gatuna">
+            <h4>Gatito programador</h4>
+            <p>Mascota de la CH43</p>
+        </div>
+    </div>
+
+</body>
+</html>
