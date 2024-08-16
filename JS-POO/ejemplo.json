@@ -1,0 +1,121 @@
+[
+    
+    {
+        "nombre":"Sebastian",
+        "apellido":"Frias",
+        "edad":24,
+        "dulcesFavs":[
+            "Pay de liimon",
+            "palanquetas",
+            "alegrias"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Ricardo",
+        "apellido":"Castillo",
+        "edad":25,
+        "dulcesFavs":[
+            "chicles",
+            "rocaleta",
+            "gomitas"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Gabriel",
+        "apellido":"Mendez",
+        "edad":28,
+        "dulcesFavs":[
+            "palomitas acarameladas",
+            "lucas muecas",
+            "skwinkles"
+        ]
+    
+    },
+    
+    {
+        "nombre": "Pedro Abraham",
+        "apellido": "Hidalgo",
+        "edad": 23,
+        "dulcesFavs": [
+        "Chocolate",
+        "Paleta"
+    ]
+    },
+    
+    {
+        "nombre":"Damian",
+        "apellido":"Campos",
+        "edad":27,
+        "dulcesFavs":[
+            "Kinder bueno",
+            "warheads",
+            "Pelonetes"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Miriam",
+        "apellido":"Medina",
+        "edad":27,
+        "dulcesFavs":[
+            "Kinder bueno",
+            "pelon pelo rico",
+            "chetos bola"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Miguel",
+        "apellido":"Castillo",
+        "edad":32,
+        "dulcesFavs":[
+            "papitas de crema y especias",
+            "cocadas",
+            "picafresas"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Alan",
+        "apellido":"Pacheco",
+        "edad":29,
+        "dulcesFavs":[
+            "emperador de chocolate",
+            "gomitas de tiburon",
+            "bubaloo"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Monica",
+        "apellido":"Jasso",
+        "edad":27,
+        "dulcesFavs":[
+            "gomitas",
+            "sabritas de limon",
+            "palomitas"
+        ]
+    
+    },
+    
+    {
+        "nombre":"Pablo",
+        "apellido":"Ramirez",
+        "edad":24,
+        "dulcesFavs":[
+            "chetos borreguito",
+            "hersheys cookies & cream",
+            "jamoncillo de leche"
+        ]
+    
+    }
+    
+    ]
